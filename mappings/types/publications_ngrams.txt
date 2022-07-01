@@ -1,0 +1,2 @@
+ngram:a1init a2init a3init a4init a1first a2first a3first a4first a1sur a2sur a3sur a4sur term1 term2 term3 term4 term5 term6 term1gen term2gen term3gen term4gen term5gen term6gen
+year:year1 year2

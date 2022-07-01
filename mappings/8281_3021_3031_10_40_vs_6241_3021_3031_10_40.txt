@@ -1,0 +1,8 @@
+2 initial 0 first 3 term 1 year | 2 initial 1 first 2 term 1 year                                       VS  2 initial 0 first 2 term 1 year
+2 initial 0 first 3 term 1 year | 2 initial 1 first 2 term 1 year                                       VS  2 initial 0 first 2 term 1 year
+3 initial 0 first 3 term 1 year | 3 initial 1 first 2 term 1 year                                       VS  3 initial 0 first 2 term 1 year
+3 initial 0 first 3 term 1 year | 4 initial 0 first 2 term 1 year                                       VS  3 initial 0 first 2 term 1 year
+3 initial 0 first 2 term 1 year | 4 initial 0 first 1 term 1 year | 3 initial 1 first 1 term 1 year     VS  3 initial 0 first 1 term 1 year
+3 initial 0 first 3 term 1 year | 4 initial 0 first 2 term 1 year                                       VS  3 initial 0 first 2 term 1 year
+3 initial 0 first 2 term 1 year | 4 initial 0 first 1 term 1 year | 3 initial 1 first 1 term 1 year     VS  3 initial 0 first 1 term 1 year
+3 initial 0 first 3 term 1 year | 4 initial 0 first 2 term 1 year                                       VS  3 initial 0 first 2 term 1 year

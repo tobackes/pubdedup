@@ -1,0 +1,21 @@
+university:university1 university2 university3 university4 university5 university6
+agency:agency1 agency2 agency3 agency4 agency5 agency6
+association:association1 association2 association3 association4 association5 association6
+academy:academy1 academy2 academy3 academy4 academy5 academy6
+factory:factory1 factory2 factory3 factory4 factory5 factory6
+college:college1 college2 college3 college4 college5 college6
+clinic:clinic1 clinic2 clinic3 clinic4 clinic5 clinic6
+company:company1 company2 company3 company4 company5 company6
+faculty:faculty1 faculty2 faculty3 faculty4 faculty5 faculty6
+center:center1 center2 center3 center4 center5 center6
+site:site1 site2 site3 site4 site5 site6
+field:field1 field2 field3 field4 field5 field6
+lab:lab1 lab2 lab3 lab4 lab5 lab6
+collection:collection1 collection2 collection3 collection4 collection5 collection6
+institute:institute1 institute2 institute3 institute4 institute5 institute6
+subfield:subfield1 subfield2 subfield3 subfield4 subfield5 subfield6
+subject:subject1 subject2 subject3 subject4 subject5 subject6
+community:community1 community2 community3 community4 community5 community6
+chair:chair1 chair2 chair3 chair4 chair5 chair6
+other:other1 other2 other3 other4 other5 other6
+city:city

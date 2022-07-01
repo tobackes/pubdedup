@@ -1,0 +1,8 @@
+4 initial 2 first 1 term 2 year --> 4 initial 0 first 1 term 1 year
+4 initial 2 first 4 term 2 year --> 4 initial 0 first 3 term 1 year
+4 initial 3 first 1 term 2 year --> 4 initial 0 first 1 term 1 year
+4 initial 3 first 2 term 2 year --> 4 initial 0 first 2 term 1 year
+4 initial 3 first 4 term 2 year --> 4 initial 0 first 3 term 1 year
+4 initial 4 first 1 term 2 year --> 4 initial 0 first 1 term 1 year
+4 initial 4 first 2 term 2 year --> 4 initial 0 first 2 term 1 year
+4 initial 4 first 3 term 2 year --> 4 initial 0 first 3 term 1 year

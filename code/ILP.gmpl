@@ -1,0 +1,39 @@
+param v_initial   integer default 4;
+param v_firstname integer default 4;
+param v_term      integer default 4;
+param v_year      integer default 2;
+
+param w_initial   integer default 8;
+param w_firstname integer default 2;
+param w_term      integer default 8;
+param w_year      integer default 1;
+
+param m integer default 74;
+param n integer default 57;
+
+param c integer default w_initial*v_initial + w_firstname*v_firstname + w_term*v_term + w_year*v_year;
+
+param l_initial   integer default ceil((3/m)*c);
+param l_firstname integer default ceil((0/m)*c);
+param l_term      integer default ceil((2/m)*c);
+param l_year      integer default ceil((1/m)*c);
+
+param u_initial   integer default v_initial;
+param u_firstname integer default v_firstname;
+param u_term      integer default v_term;
+param u_year      integer default v_year;
+
+var initials   >= l_initial,   integer;
+var firstnames >= l_firstname, integer;
+var terms      >= l_term,      integer;
+var years      >= l_year,      integer;
+
+minimize w: w_initial*initials + w_firstname*firstnames + w_term*terms + w_year*years;
+
+subject to  c1: w_initial*initials + w_firstname*firstnames + w_term*terms + w_year*years>=(n/m)*c;
+subject to  c2: initials   <= v_initial;
+subject to  c3: firstnames <= v_firstname;
+subject to  c4: terms      <= v_term;
+subject to  c5: years      <= v_year;
+
+end;

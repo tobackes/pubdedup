@@ -1,0 +1,183 @@
+1 surname 1 initial         4 term
+1 surname 1 initial 1 first 3 term
+1 surname 1 initial 1 first 2 term 1 year
+1 surname 1 initial         2 term 2 year
+2 surname 2 initial 2 first 2 term
+2 surname 2 initial 2 first 1 term 1 year
+2 surname 2 initial 1 first 1 term 2 year
+2 surname 2 initial         3 term
+2 surname 2 initial         2 term 1 year
+2 surname 2 initial         1 term 2 year
+3 surname 3 initial 3 first        1 year
+3 surname 3 initial 2 first 1 term
+3 surname 3 initial         1 term 1 year
+4 surname 4 initial 2 first
+4 surname 4 initial         1 term
+4 surname 4 initial                1 year
+_________________________________________
+
+drop restrictions:
+
+1       initial
+1 2     year
+1 2 3   term
+1 2 3 4 first
+_________________________________________
+
+4 initial 4 first 4 term -> 4 initial 3 term | 4 initial 4 first 2 term
+4 initial 4 first 3 term -> 4 initial 3 term | 4 initial 4 first 2 term
+4 initial 4 first 2 term -> 4 initial 2 term
+4 initial 4 first 1 term -> 4 initial 1 term
+
+4 initial 3 first 4 term -> 4 initial 3 term | 4 initial 3 first 2 term
+4 initial 3 first 3 term -> 4 initial 3 term | 4 initial 3 first 2 term
+4 initial 3 first 2 term -> 4 initial 2 term
+4 initial 3 first 1 term -> 4 initial 1 term
+
+4 initial 2 first 4 term -> 4 initial 3 term
+4 initial 2 first 3 term -> 4 initial 3 term | 4 initial 2 first 2 term
+4 initial 2 first 2 term -> 4 initial 2 term
+4 initial 2 first 1 term -> 4 initial 1 term
+
+4 initial 1 first 4 term -> 4 initial 3 term
+4 initial 1 first 3 term -> 4 initial 3 term | 4 initial 1 first 2 term
+4 initial 1 first 2 term -> 4 initial 2 term
+4 initial 1 first 1 term -> 4 initial 1 term
+
+4 initial 0 first 4 term -> 4 initial 3 term
+4 initial 0 first 3 term -> 4 initial 3 term
+4 initial 0 first 2 term -> 4 initial 2 term
+4 initial 0 first 1 term -> 4 initial 1 term
+
+3 initial 3 first 4 term -> 3 initial 3 term | 3 initial 3 first 2 term
+3 initial 3 first 3 term -> 3 initial 3 term | 3 initial 3 first 2 term
+3 initial 3 first 2 term -> 3 initial 2 term
+3 initial 3 first 1 term -> 3 initial 1 term
+
+3 initial 2 first 4 term -> 3 initial 3 term | 3 initial 2 first 2 term
+3 initial 2 first 3 term -> 3 initial 3 term
+3 initial 2 first 2 term -> 3 initial 2 term
+3 initial 2 first 1 term -> 3 initial 1 term
+
+3 initial 1 first 4 term -> 3 initial 3 term
+3 initial 1 first 3 term -> 3 initial 3 term | 3 initial 1 first 2 term
+3 initial 1 first 2 term -> 3 initial 2 term
+3 initial 1 first 1 term -> 3 initial 1 term
+
+3 initial 0 first 4 term -> 3 initial 3 term
+3 initial 0 first 3 term -> 
+3 initial 0 first 2 term -> 
+3 initial 0 first 1 term -> 
+
+2 initial 2 first 4 term -> 2 initial 3 term
+2 initial 2 first 3 term -> 2 initial 3 term
+2 initial 2 first 2 term -> 2 initial 1 first 2 term
+2 initial 2 first 1 term -> 2 initial 1 first 1 term
+
+2 initial 1 first 4 term -> 2 initial 3 term
+2 initial 1 first 3 term -> 2 initial 3 term
+2 initial 1 first 2 term -> 
+2 initial 1 first 1 term -> 
+
+2 initial 0 first 4 term -> 2 initial 3 term
+2 initial 0 first 3 term -> 
+2 initial 0 first 2 term -> 
+2 initial 0 first 1 term -> 
+
+1 initial 1 first 4 term -> 1 initial 1 first 3 term
+1 initial 1 first 3 term -> 
+1 initial 1 first 2 term -> 
+1 initial 1 first 1 term -> 
+
+1 initial 0 first 4 term -> 
+1 initial 0 first 3 term -> 
+1 initial 0 first 2 term -> 
+1 initial 0 first 1 term -> 
+
+_________________________________________
+
+20042005|20052006|makin|makin_j|makin_june|morris|morris_d|morris_debra|needham|needham_g|needham_gill|parker|parker_j|parker_jo|course|standalone|useful
+______________________________________________
+1 surname 1 initial 1 first 3 term
+______________________________________________
+makin|makin_j|makin_june|course|standalone|useful
+morris|morris_d|morris_debra|course|standalone|useful
+needham|needham_g|needham_gill|course|standalone|useful
+parker|parker_j|parker_jo|course|standalone|useful
+-> 4
+______________________________________________
+______________________________________________
+1 surname 1 initial 1 first 2 term 1 year
+______________________________________________
+makin|makin_j|makin_june|standalone|useful|20042005
+makin|makin_j|makin_june|standalone|useful|20052006
+x4
+-> 8
+______________________________________________
+______________________________________________
+1 surname 1 initial         2 term 2 year
+______________________________________________
+-> 8
+______________________________________________
+______________________________________________
+2 surname 2 initial 2 first 2 term
+______________________________________________
+-> 12
+______________________________________________
+______________________________________________
+2 surname 2 initial 2 first 1 term 1 year
+______________________________________________
+-> 36
+______________________________________________
+______________________________________________
+2 surname 2 initial 1 first 1 term 2 year
+______________________________________________
+-> 36
+______________________________________________
+______________________________________________
+2 surname 2 initial         3 term
+______________________________________________
+-> 6
+______________________________________________
+______________________________________________
+2 surname 2 initial         2 term 1 year
+______________________________________________
+-> 24
+______________________________________________
+______________________________________________
+2 surname 2 initial         1 term 2 year
+______________________________________________
+-> 18
+______________________________________________
+______________________________________________
+3 surname 3 initial 3 first        1 year
+______________________________________________
+-> 8
+______________________________________________
+______________________________________________
+3 surname 3 initial 2 first 1 term
+______________________________________________
+-> 36
+______________________________________________
+______________________________________________
+3 surname 3 initial         1 term 1 year
+______________________________________________
+-> 16
+______________________________________________
+______________________________________________
+4 surname 4 initial 2 first
+______________________________________________
+-> 6
+______________________________________________
+______________________________________________
+4 surname 4 initial         1 term
+______________________________________________
+-> 3
+______________________________________________
+______________________________________________
+4 surname 4 initial                1 year
+______________________________________________
+-> 2
+______________________________________________
+______________________________________________
+=> more than 200 generalizations !

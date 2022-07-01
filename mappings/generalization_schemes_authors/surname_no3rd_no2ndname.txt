@@ -1,0 +1,13 @@
+1 sur_init 1 sur_name 1 1st_init 1 1st_name 1 2nd_init 1 2nd_name 1 3rd_init 1 3rd_name --> 1 sur_init 1 sur_name 1 1st_init 1 1st_name 1 2nd_init 0 2nd_name 0 3rd_init 0 3rd_name
+1 sur_init 1 sur_name 1 1st_init 1 1st_name 1 2nd_init 0 2nd_name 1 3rd_init 1 3rd_name --> 1 sur_init 1 sur_name 1 1st_init 1 1st_name 1 2nd_init 0 2nd_name 0 3rd_init 0 3rd_name
+1 sur_init 1 sur_name 1 1st_init 1 1st_name 1 2nd_init 1 2nd_name 1 3rd_init 0 3rd_name --> 1 sur_init 1 sur_name 1 1st_init 1 1st_name 1 2nd_init 0 2nd_name 0 3rd_init 0 3rd_name
+1 sur_init 1 sur_name 1 1st_init 0 1st_name 1 2nd_init 1 2nd_name 1 3rd_init 1 3rd_name --> 1 sur_init 1 sur_name 1 1st_init 0 1st_name 1 2nd_init 0 2nd_name 1 3rd_init 0 3rd_name
+1 sur_init 1 sur_name 1 1st_init 1 1st_name 1 2nd_init 1 2nd_name 0 3rd_init 0 3rd_name --> 1 sur_init 1 sur_name 1 1st_init 1 1st_name 1 2nd_init 0 2nd_name 0 3rd_init 0 3rd_name
+1 sur_init 1 sur_name 1 1st_init 1 1st_name 1 2nd_init 0 2nd_name 1 3rd_init 0 3rd_name --> 1 sur_init 1 sur_name 1 1st_init 1 1st_name 1 2nd_init 0 2nd_name 0 3rd_init 0 3rd_name
+1 sur_init 1 sur_name 1 1st_init 0 1st_name 1 2nd_init 1 2nd_name 1 3rd_init 0 3rd_name --> 1 sur_init 1 sur_name 1 1st_init 0 1st_name 1 2nd_init 0 2nd_name 0 3rd_init 0 3rd_name
+1 sur_init 1 sur_name 1 1st_init 0 1st_name 1 2nd_init 0 2nd_name 1 3rd_init 1 3rd_name --> 1 sur_init 1 sur_name 1 1st_init 0 1st_name 1 2nd_init 0 2nd_name 0 3rd_init 0 3rd_name
+1 sur_init 1 sur_name 1 1st_init 1 1st_name 1 2nd_init 0 2nd_name 0 3rd_init 0 3rd_name --> 1 sur_init 1 sur_name 1 1st_init 1 1st_name 1 2nd_init 0 2nd_name 0 3rd_init 0 3rd_name
+1 sur_init 1 sur_name 1 1st_init 0 1st_name 1 2nd_init 1 2nd_name 0 3rd_init 0 3rd_name --> 1 sur_init 1 sur_name 1 1st_init 0 1st_name 1 2nd_init 0 2nd_name 0 3rd_init 0 3rd_name
+1 sur_init 1 sur_name 1 1st_init 0 1st_name 1 2nd_init 0 2nd_name 1 3rd_init 0 3rd_name --> 1 sur_init 1 sur_name 1 1st_init 0 1st_name 1 2nd_init 0 2nd_name 0 3rd_init 0 3rd_name
+1 sur_init 1 sur_name 1 1st_init 1 1st_name 0 2nd_init 0 2nd_name 0 3rd_init 0 3rd_name --> 1 sur_init 1 sur_name 1 1st_init 1 1st_name 0 2nd_init 0 2nd_name 0 3rd_init 0 3rd_name
+1 sur_init 1 sur_name 1 1st_init 0 1st_name 1 2nd_init 0 2nd_name 0 3rd_init 0 3rd_name --> 1 sur_init 1 sur_name 1 1st_init 0 1st_name 1 2nd_init 0 2nd_name 0 3rd_init 0 3rd_name
